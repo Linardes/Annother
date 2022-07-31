@@ -157,6 +157,12 @@
             <artifactId>wagon-provider-api</artifactId>
             <version>1.0</version>
         </dependency>
+<!--        验证码依赖包-->
+        <dependency>
+            <groupId>com.github.whvcse</groupId>
+            <artifactId>easy-captcha</artifactId>
+            <version>1.6.2</version>
+        </dependency>
     </dependencies>
     <!--使Maven扫描到配置文件,以便编译-->
     <build>

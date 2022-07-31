@@ -22,12 +22,11 @@
     <mvc:annotation-driven/>
 
     <!--放行静态资源-->
-    <mvc:resources mapping="/js/**" location="/js/" />
 
     <!--    配置拦截器-->
-    <mvc:interceptors>
-        <bean class="com.LMJ.interceptor.LoginInterceptor"></bean>
-    </mvc:interceptors>
+<!--    <mvc:interceptors>-->
+<!--        <bean class="com.LMJ.interceptor.LoginInterceptor"></bean>-->
+<!--    </mvc:interceptors>-->
 
 <!--    设置文件上传核心组件-->
 </beans>

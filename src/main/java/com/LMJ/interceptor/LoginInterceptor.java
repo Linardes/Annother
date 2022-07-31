@@ -9,7 +9,7 @@ public class LoginInterceptor extends HandlerInterceptorAdapter {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response,Object Handler)
     throws Exception{
         String uri=request.getRequestURI();
-        if(uri.indexOf("/login")>=0) {
+        if(uri.indexOf("/login")>=0||uri.indexOf("/captcha")>=0) {
             return true;
         }
         HttpSession session = request.getSession();
